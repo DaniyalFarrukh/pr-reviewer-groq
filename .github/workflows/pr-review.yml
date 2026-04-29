@@ -19,5 +19,5 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           openai_base_url: 'https://api.groq.com/openai/v1'
-          openai_light_model: 'llama3-8b-8192'
-          openai_heavy_model: 'llama3-70b-8192'
+          openai_light_model: 'llama-3.1-8b-instant'
+          openai_heavy_model: 'llama-3.3-70b-versatile'
