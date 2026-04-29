@@ -1,4 +1,4 @@
-name: Test PR Reviewer
+name: Test PR Reviewers
 
 on:
   pull_request:
